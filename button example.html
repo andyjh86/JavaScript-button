@@ -6,15 +6,15 @@
 <p>The onclick event triggers a function when an element is clicked on.</p>
 <p>Click the below to trigger a function that will output "Hello World":</p>
 
-<button onclick="myFunction()">Click me</button>
+<button onclick="myFunction()">Click me</button>   <!-- This is just a html buttonm calling a function called myfunction -->
 
 <p id="demo"></p>
 
-<script>
+<script> 
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-}
-</script>
+  document.getElementById("demo").innerHTML = "Hello World"; 
+}  
+</script>   <!-- This is technically the javascript but it's probably best kept in it's own file. It seems fine on a small scale but it will clutting everything up and make things confusing if it's all on the one page. -->
 
 </body>
 </html>
